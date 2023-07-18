@@ -211,14 +211,48 @@ a{
     font-size: 20px;
 }
 
+/* sponsor company */
+.sponsor{
+    margin-top: 180px;
+}
+.sponsor-main-content{
+    text-align: center;
+}
+.sponsor-company-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap:120px;
+}
+.company1{
+    color: #2EBD59;mix-blend-mode: luminosity;
+}
+.sponsor-title{
+    color: #131313;
+    font-size: 45px;
+}
+.sponsor-description{
+    width: 542px;
+    margin: auto;
+    margin-bottom: 50px;
+    color: #727272;
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+}
 
 
-
-
-
-
-
-
+/* footer section */
+.footer{
+    border-radius: 8px;
+    background: #FFF4E7;
+    margin: 45px 150px;
+    padding: 45px;
+    text-align: center;
+    color:  #424242;
+    font-size: 20px;
+}
 
 /* Responsive Design */
 @media screen and (max-width:576px) {
